@@ -4,8 +4,7 @@ Esta pasta guarda arquivos de persistencia simples em texto.
 
 ## Arquivos
 
-- `recorde.txt`: melhor pontuacao registrada.
-- `ranking.txt`: base para ranking de jogadores (opcional neste template).
+- `leaderboard.csv`: ranking persistente gerado na raiz do projeto, com nome e pontuacao ordenados da maior para a menor.
 - `README.txt`: arquivo legado; manter por compatibilidade se necessario.
 
 ## Observacao
