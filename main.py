@@ -181,7 +181,7 @@ while rodando:
                     if len(texto_input) < 15:
                         texto_input += evento.unicode
 
-    desenhar_texto("TÍTULO DO JOGO", FONTE_TITULO, BRANCO, LARGURA_TELA // 2, 100)
+    desenhar_texto(TITULO_JOGO, FONTE_TITULO, BRANCO, LARGURA_TELA // 2, 100)
 
     if estado_atual == "DIGITAR_NUM_JOGADORES":
         desenhar_texto("Digite a quantidade de jogadores:", FONTE_TEXTO, CINZA, LARGURA_TELA // 2, 200)
